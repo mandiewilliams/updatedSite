@@ -1,0 +1,154 @@
+//@import '../bourbon/bourbon';
+//@import '../neat/neat';
+@import 'colors';
+@import 'nav';
+@import 'format';
+
+body {
+	font-family: $font-light;
+	
+
+	h2 {
+		padding-top: 10px;
+		padding-left: 30px;	
+	}
+	p {
+		padding-left: 30px;
+	}
+
+}
+
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin basicButton ($width) {
+	border-radius: 2px;
+	background-color: white;
+	width: $width;
+	padding: 10px;
+
+}
+
+.readMore {
+	@include basicButton(30px);
+
+}
+
+.bigButton {
+	@include basicButton(100px);
+}
+
+#page1 {
+	height: 1000px;
+	background-color: $ltpink;
+
+}
+
+#page2, #page3, #page4, #page5 {
+	height: 1200px;
+	background-size: 100%, 100%;
+	background-attachment:fixed;
+	background-position: center center;
+	padding-top: 50px;
+}
+
+#banner {
+	margin: 0 auto;
+	padding-top: 300px;
+	text-align: center;
+}
+
+.header {
+	height: 75px;
+	width: 200px;
+	background-color: rgba($ltgrey2, 0.7);
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.header h1, h2, h3 {
+	@include vertical-align;
+	//text-align: center;
+}
+
+#page2 {
+	background-color: $ltgrey2;
+	//background-image: url("../Images/typewriter.jpg");
+	background-position: center center;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	
+}
+
+.aboutColumn, .contactColumn {
+	position: relative;
+	padding-top: 25%;
+	padding-left: 50px;
+	padding-right: 50px;
+
+}
+
+#page3 {
+	//experience
+	//background-color: $ltpink;
+	background-image: url("../Images/yarnmulti_sheer.jpg");
+
+}
+
+#page4 {
+	//skills
+	background-color: $ltgrey2;
+}
+
+.icon {
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	background-color: white;
+	margin: auto 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: $drkpink;
+	@include vertical-align;
+	display: inline-block;
+}
+
+
+.glyphicon {
+	@include vertical-align;
+	color: $drkpink;
+}
+
+#page5 {
+	background-image: url("../Images/typewriter_sheer.jpg");
+	background-position: center center;
+
+}
+
+#page6 {
+	background-color: $ltpink;
+	height: 1000px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.dummyForm {
+	height: 500px;
+	width: 450px;
+	margin: 0 auto;
+	background-color: $ltgrey2;
+	border-radius: 10px;
+}
+
+.dummyForm p {
+	padding-top: 20px;
+	padding-right: 20px;
+
+}
+

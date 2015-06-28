@@ -1,0 +1,133 @@
+nav {
+  display: inline-block;
+  width: 100%;
+  padding-top: 7px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  float: none;
+  text-align: center; }
+
+nav ul {
+  margin: 0 auto;
+  display: inline-block; }
+nav li {
+  display: inline-block;
+  float: none; }
+  nav li a {
+    text-decoration: none;
+    margin-right: 10px; }
+
+body {
+  font-family: "GeoSansLight", sans-serif; }
+  body h2 {
+    padding-top: 10px;
+    padding-left: 30px; }
+  body p {
+    padding-left: 30px; }
+
+.readMore {
+  border-radius: 2px;
+  background-color: white;
+  width: 30px;
+  padding: 10px; }
+
+.bigButton {
+  border-radius: 2px;
+  background-color: white;
+  width: 100px;
+  padding: 10px; }
+
+#page1 {
+  height: 1000px;
+  background-color: #FFC7E3; }
+
+#page2, #page3, #page4, #page5 {
+  height: 1200px;
+  background-size: 100%, 100%;
+  background-attachment: fixed;
+  background-position: center center;
+  padding-top: 50px; }
+
+#banner {
+  margin: 0 auto;
+  padding-top: 300px;
+  text-align: center; }
+
+.header {
+  height: 75px;
+  width: 200px;
+  background-color: rgba(209, 208, 208, 0.7);
+  border-radius: 10px;
+  margin-bottom: 20px; }
+
+.header h1, h2, h3 {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+#page2 {
+  background-color: #D1D0D0;
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed; }
+
+.aboutColumn, .contactColumn {
+  position: relative;
+  padding-top: 25%;
+  padding-left: 50px;
+  padding-right: 50px; }
+
+#page3 {
+  background-image: url("../Images/yarnmulti_sheer.jpg"); }
+
+#page4 {
+  background-color: #D1D0D0; }
+
+.icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: white;
+  margin: auto 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #FE62B1;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: inline-block; }
+
+.glyphicon {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #FE62B1; }
+
+#page5 {
+  background-image: url("../Images/typewriter_sheer.jpg");
+  background-position: center center; }
+
+#page6 {
+  background-color: #FFC7E3;
+  height: 1000px;
+  margin: 0 auto;
+  text-align: center; }
+
+.dummyForm {
+  height: 500px;
+  width: 450px;
+  margin: 0 auto;
+  background-color: #D1D0D0;
+  border-radius: 10px; }
+
+.dummyForm p {
+  padding-top: 20px;
+  padding-right: 20px; }
+
+/*# sourceMappingURL=main.css.map */

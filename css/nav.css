@@ -1,0 +1,20 @@
+nav {
+  display: inline-block;
+  width: 100%;
+  padding-top: 7px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  float: none;
+  text-align: center; }
+
+nav ul {
+  margin: 0 auto;
+  display: inline-block; }
+nav li {
+  display: inline-block;
+  float: none; }
+  nav li a {
+    text-decoration: none;
+    margin-right: 10px; }
+
+/*# sourceMappingURL=nav.css.map */
