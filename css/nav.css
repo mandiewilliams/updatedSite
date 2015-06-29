@@ -14,7 +14,6 @@ nav li {
   display: inline-block;
   float: none; }
   nav li a {
-    text-decoration: none;
-    margin-right: 10px; }
+    text-decoration: none; }
 
 /*# sourceMappingURL=nav.css.map */

@@ -14,8 +14,7 @@ nav li {
   display: inline-block;
   float: none; }
   nav li a {
-    text-decoration: none;
-    margin-right: 10px; }
+    text-decoration: none; }
 
 body {
   font-family: "GeoSansLight", sans-serif; }
@@ -24,6 +23,9 @@ body {
     padding-left: 30px; }
   body p {
     padding-left: 30px; }
+  body img {
+    padding-top: 0px;
+    padding-bottom: 20px; }
 
 .readMore {
   border-radius: 2px;
@@ -60,12 +62,18 @@ body {
   border-radius: 10px;
   margin-bottom: 20px; }
 
-.header h1, h2, h3 {
+h1, h2, h3 .header {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
+
+.textBox {
+  padding: 10px;
+  background-color: rgba(255, 199, 227, 0.7);
+  border-radius: 10px;
+  margin-bottom: 20px; }
 
 #page2 {
   background-color: #D1D0D0;
@@ -91,7 +99,6 @@ body {
   border-radius: 50px;
   background-color: white;
   margin: auto 20px;
-  margin-bottom: 20px;
   text-align: center;
   color: #FE62B1;
   position: relative;
@@ -107,7 +114,8 @@ body {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: #FE62B1; }
+  color: #FE62B1;
+  font-size: 25px; }
 
 #page5 {
   background-image: url("../Images/typewriter_sheer.jpg");

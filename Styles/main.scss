@@ -16,6 +16,12 @@ body {
 		padding-left: 30px;
 	}
 
+	img {
+		padding-top: 0px;
+		padding-bottom: 20px;
+		//padding: auto;
+	}
+
 }
 
 @mixin vertical-align {
@@ -71,9 +77,18 @@ body {
 	margin-bottom: 20px;
 }
 
-.header h1, h2, h3 {
+h1, h2, h3 .header {
 	@include vertical-align;
 	//text-align: center;
+}
+
+.textBox {
+	padding: 10px;
+	background-color: rgba($ltpink, 0.7);
+	//height: 200px;
+	//width: 600px;
+	border-radius: 10px;
+	margin-bottom: 20px;
 }
 
 #page2 {
@@ -111,7 +126,6 @@ body {
 	border-radius: 50px;
 	background-color: white;
 	margin: auto 20px;
-	margin-bottom: 20px;
 	text-align: center;
 	color: $drkpink;
 	@include vertical-align;
@@ -122,6 +136,7 @@ body {
 .glyphicon {
 	@include vertical-align;
 	color: $drkpink;
+	font-size: 25px;
 }
 
 #page5 {
